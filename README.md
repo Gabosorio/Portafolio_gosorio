@@ -7,4 +7,4 @@ En este examen se evaluará el conocimiento y dominio de HTML, CSS, Bootstrap, G
 
 También se podrá apreciar el avance de conocimientos obtenidos ya que se tendrá acceso a los repositorios de los desafíos anteriores.
 
-Link para acceder a página del portafolio:
+Link para acceder a página del portafolio:https://gabosorio.github.io/Portafolio_gosorio/
