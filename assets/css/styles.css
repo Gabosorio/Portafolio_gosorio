@@ -1,0 +1,61 @@
+body{
+    font-family: 'roboto',sans-serif;
+}
+
+.container{
+    background-color: rgb(192, 190, 190);
+}
+.about{
+    width:25rem;
+}
+#project{
+    width: 100%;
+}
+.fa-html5{
+    color: tomato;
+}
+.fa-css3-alt{
+    color: #2965f1;
+}
+.fa-bootstrap{
+    color: #563d7c;
+}
+.fa-js{
+    color: #f0db4f;
+}
+.modalImage{
+    width: 30rem;
+}
+#register{
+    padding: 2rem;
+
+}
+.icon > p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+.icon{
+    -webkit-transition: 0.5s linear;
+    transition: 0.5s linear;
+}
+.icon:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+#linkedin{
+    color:#0072b1;
+}
+#github{
+    color:#333;
+}
+#whatsapp{
+    color:#25D366;
+}
+@media(min-width:576px){
+    .projects{
+        display:grid;
+        grid-template-columns: auto auto auto;
+        gap: 1rem;
+
+    }
+}

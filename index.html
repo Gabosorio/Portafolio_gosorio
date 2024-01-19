@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- ICONS -->
+    <script
+      src="https://kit.fontawesome.com/a009c454f8.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- JAVASCRIPT -->
+    <script src="assets/util/util.js"></script>
+    <script src="assets/util/projectList.js"></script>
+    <script src="assets/util/test.js"></script>    
+    <title>Portafolio Gabriel Osorio</title>
+  </head>
+  <body onload="javascript:projects();">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col">
+          <nav class="navbar navbar-dark bg-gradient bg-secondary fixed-top">
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" brhref="#">Gabriel Osorio</a>
+              <div
+                class="offcanvas offcanvas-start"
+                tabindex="-1"
+                id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel"
+              >
+                <div class="offcanvas-header bg-secondary text-light">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                    Portafolio de Gabriel Osorio
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link text-muted" href="#">Acerca de mí</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-muted" href="#knowledge"
+                        >Conocimientos</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-muted" href="#projects"
+                        >Proyectos</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-muted" href="#contact"
+                        >Contacto</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <!-- FIN NAVBAR OFFCANVAS -->
+        </div>
+      </div>
+      <!-- ACERCA DE MI SECTION -->
+      <div class="row">
+        <div class="col text-center">
+          <img
+            class=" rounded-pill mt-5 img-fluid about"
+            id="about"
+            src="assets/img/foto_cv.jpg"
+            alt="imagen Gabriel Osorio"
+          />
+          <h1>Acerca de mí</h1>
+          <p>
+            Soy una persona proactiva, responsable, Trabajo hace muchos
+                  años en el área de la Construcción en diferentes empresas del
+                  país desarrollándome como jefe de oficina técnica, jefe de
+                  bodega, jefe de adquisiciones en diferentes proyectos de
+                  edificacion, buscando un cambio de vida llegue a Desafío
+                  Latam, para ampliar mis conocimientos en FullStack..
+          </p>
+        </div>
+      </div>
+      <!-- ACERCA DE MI END SECTION -->
+      <!-- CONOCIMIENTOS SECTION -->
+      <div class="row" id="knowledge">
+        <div class="col-12">
+          <h4 class="text-light bg-secondary rounded pt-1 text-center">
+            CONOCIMIENTOS
+          </h4>
+          <div class="row text-center">
+            <div class="col icon">
+              <i class="fa-brands fa-html5 fa-3x mt-3 mb-2"></i>
+              <p>HTML 5</p>
+            </div>
+            <div class="col icon">
+              <i class="fa-brands fa-css3-alt fa-3x mt-3 mb-2"></i>
+              <p>CSS</p>
+            </div>
+            <div class="col icon">
+              <i class="fa-brands fa-bootstrap fa-3x mt-3 mb-2"></i>
+              <p>BOOTSTRAP</p>
+            </div>
+            </div>
+        </div>
+      </div>
+      <!-- CONOCIMIENTOS END SECTION -->
+      <!-- PROYECTOS SECTION -->
+      <div class="row">
+        <div class="col-12">
+          <h4
+            class="text-light bg-secondary  rounded pt-1 text-center"
+            id="projects"
+          >
+            PROYECTOS 
+          </h4>
+        </div>
+
+        <div class="container my-4">
+          <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class ="card mb-3" style = "width: 100%">
+              <img src="assets/img/Desafio1.jpg" class="card-img-top" alt="Desafio 1">
+              <div class="card-body">
+                  <h6 class="text-left">Desafio HTML</h6>
+                  <a href="https://github.com/chenriquezu/Desafio_01Html" target="_blank" class="btn btn-primary">Repositorio GitHub</a>
+              </div>
+          </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class ="card mb-3" style="width: 100%">
+              <img src="assets/img/Desafio2.jpg" class="card-img-top" alt="Desafio 2">
+              <div class="card-body">
+                  <h6 class="text-left">Desafio CSS</h6>
+                  <a href="https://github.com/chenriquezu/Desafio_02CSS" target="_blank" class="btn btn-primary">Repositorio GitHub</a>
+              </div>
+          </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class ="card mb-3" style="width: 100%">
+              <img src="assets/img/Desafio3.jpg" class="card-img-top" alt="Desafio Posicionamiento">
+              <div class="card-body">
+                  <h6 class="text-left">Desafio Posicionamiento</h6>
+                  <a href="https://github.com/chenriquezu/Desafio_03POSICIONAMIENTO" target="_blank" class="btn btn-primary">Repositorio GitHub</a>
+              </div>
+          </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class ="card mb-3" style="width: 100%">
+              <img src="assets/img/Desafio4.jpg" class="card-img-top" alt="Desafio 4">
+              <div class="card-body">
+                  <h6 class="text-left">Desafio bootstrap</h6>
+                  <a href="https://github.com/chenriquezu/Desafio_04BOOTSTRAP" target="_blank" class="btn btn-primary">Repositorio GitHub</a>
+              </div>
+          </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class ="card mb-3" style="width: 100%">
+              <img src="assets/img/Desafio5.jpg" class="card-img-top" alt="Desafio 5">
+              <div class="card-body">
+                  <h6 class="text-left">Desafio Git</h6>
+                  <a href="https://github.com/chenriquezu/Desafio_05GIT" target="_blank" class="btn btn-primary">Repositorio GitHub</a>
+              </div>
+          </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class ="card mb-3" style="width: 100%">
+              <img src="assets/img/Desafio6.jpg" class="card-img-top" alt="Desafio 6">
+              <div class="card-body">
+                  <h6 class="text-left">Desafio Portafolio</h6>
+                  <a href="https://github.com/chenriquezu/Desafio_06Portafolio" target="_blank" class="btn btn-primary">Repositorio Portafolio</a>
+              </div>
+          </div>
+          </div>
+
+          </div>
+      </div>
+        <!-- <div class="projects">
+          <div class="col-12 col-lg-4 mt-5 mb-3 home all d-none" id="project">
+            <div class="card shadow">
+              <img src="" class="card-img-top" alt="CV PRIMER PROYECTO" />
+              <div class="card-body text-center">
+                <h5 class="card-title"></h5>
+                <p class="card-text"></p>
+              </div>
+              <a
+                href="#"
+                class="btn btn-light"
+                data-bs-toggle="modal"
+                data-bs-target="#comunModal"
+                id=""
+                onclick="javascript:proyectDetail(this);"
+                type="button"
+                >Ver más</a
+              >
+            </div>
+          </div>
+        </div>
+        
+        <div
+          class="modal fade"
+          id="comunModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="false"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-secondary text-light">
+                <h5 class="modal-title text-light" id="exampleModalLabel"></h5>
+                <button
+                  type="button"
+                  class="btn-close btn-secondary"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body text-center">
+                <img />
+                <p></p>
+              </div>
+              <div class="modal-footer bg-secondary">
+                <a
+                  type="button"
+                  class="btn btn-light"
+                  target="_blank"
+                  id="repositorio"
+                  >Ir a repositorio GitHub</a
+                >
+                <a type="button" class="btn btn-light" target="_blank" id="web"
+                  >Ir a proyecto web</a
+                >
+                <button
+                  type="button"
+                  class="btn btn-dark"
+                  data-bs-dismiss="modal"
+                >
+                  Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <!-- COMUN MODAL END -->
+      </div> 
+      <!-- PROYECTOS END SECTION -->
+      <!-- CV SECTION -->
+      <div class="row">
+        <div class="col text-center text-light p-2 rounded" id="CV">
+          <h4 class="text-light bg-secondary rounded-pill pt-1 text-center">
+            CURRICULUM
+          </h4>
+          <a
+            href="https://drive.google.com/file/d/1tc4h02yxXQIXfRnOEdRVZ67_OBZOJOuP/view?usp=share_link"
+            download="CV_Katia.pdf"
+            target="_blank"
+            ><button class="btn btn-lg btn-outline-secondary mt-3">
+              Versión español
+            </button></a
+          >
+          <a
+            href="https://drive.google.com/file/d/1DFsd5ZbhUfzsVbv6LCNNlF1XGVpu8KTu/view?usp=share_link"
+            download="CV_Katia.pdf"
+            target="_blank"
+            ><button class="btn btn-lg btn-outline-secondary mt-3">
+              English version
+            </button></a
+          >
+        </div>
+      </div>
+      <!-- END CV SECTION -->
+      <!-- CONTACT SECTION -->
+      <div class="row">
+        <div class="col-12 text-center text-light p-2 rounded" id="contact">
+          <h4 class="text-light bg-secondary rounded-pill pt-1 text-center">
+            CONTACTO
+          </h4>
+          <div class="row text-center">
+            <div class="col">
+              <a
+                href="https://www.linkedin.com/in/katiavelasquez"
+                target="_blank"
+              >
+                <i
+                  class="fa-brands fa-linkedin-in fa-3x icon"
+                  id="linkedin"
+                ></i>
+              </a>
+            </div>
+            <div class="col">
+              <a href="https://github.com/kvel83" target="_blank">
+                <i class="fa-brands fa-github fa-3x icon" id="github"></i>
+              </a>
+            </div>
+            <div class="col">
+              <a
+                href="https://api.whatsapp.com/send?phone=56932058871&text=Hola,%20gracias%20por%20contactarme,%20apenas%20este%20disponible%20responder%C3%A9%20tu%20mensaje,%20si%20es%20urgente%20por%20favor%20no%20dudes%20en%20llamarme."
+                target="_blank"
+              >
+                <i class="fa-brands fa-whatsapp fa-3x icon" id="whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END CONTACT SECTION -->
+      <!-- FOOTER SECTION -->
+      <footer>
+        <footer
+          class="bg-gradient bg-secondary text-center text-light mt-5 p-4 rounded"
+        >
+          <p class="mb-0">© Gabriel Osorio. Todos los derechos reservados.</p>
+        </footer>
+      </footer>
+    </div>
+    <!-- JavaScript Bundle with Popper BOOTSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
